@@ -1,0 +1,186 @@
+@charset "UTF-8";
+style{font-family: "microsoft yahei,arial, helvetica, sans-serif";
+	font-size: 16px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.auto{
+	margin: 0 auto;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.top1,.top1 img{
+	width: 1200px;
+	height: 240px;
+}
+.top{
+	width: 1200px;
+	height: 40px;
+	background-color: red;
+}
+.top li{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.top li a{
+	color: #fff;
+	display: block;
+}
+.main1{
+	width: 1150px;
+	height: 450px;
+	margin: 20px auto;
+}
+.main1 img{
+	width: 1150px;
+	height: 450px;
+}
+.main2{
+	width: 1150px;
+	margin: 20px auto;
+}
+.main2 div:first-child{
+	width: 450px;
+	height: 280px;
+	float: left;
+}
+.main2 div:first-child img{
+	width: 450px;
+	height: 280px;
+}
+.main2 div:last-child{
+	width: 650px;
+	height: 280px;
+	float: right;
+	box-sizing: border-box;
+	padding: 15px;
+	color: #555;
+}
+.main2 div:last-child h4{
+	color: #555;
+	font-size: 22px;
+}
+.main{
+	width: 1150px;
+	margin: 30px auto;
+}
+.main3 {
+	width: 550px;
+	float: left;
+}
+.main3-l{
+	width: 550px;
+	margin-bottom: 30px;
+}
+.main3-l div:first-child{
+	width: 220px;
+	float: left;
+	height: 200px;
+}
+.main3-l div:first-child img{
+	width: 220px;
+	height: 200px;
+}
+.main3-l div:last-child{
+	width: 300px;
+	height: 200px;
+	float: right;
+}
+.main3-lb{
+	width: 550px;
+	margin-bottom: 30px;
+}
+.main3-lb div:first-child{
+	width: 220px;
+	float: left;
+	height: 200px;
+}
+.main3-lb div:first-child img{
+	width: 220px;
+	height: 200px;
+}
+.main3-lb div:last-child{
+	width: 300px;
+	height: 200px;
+	float: right;
+}
+.main4{
+	width: 550px;
+	float: right;
+}
+.main5{
+	width: 1150px;
+	margin: 30px auto;
+}
+.main5 div:first-child{
+	width: 550px;
+	float: left;
+}
+.main5 div:first-child img{
+	width: 550px;
+	height: 280px;
+}
+.main5 div:last-child{
+	width: 550px;
+	float: right;
+}
+.main5 div:last-child img{
+	width: 550px;
+	height: 280px;
+}
+.ch4{
+	text-align: center;
+	color: red;
+	margin: 40px auto;
+}
+.main6{
+	width: 1150px;
+	margin: 30px auto;
+}
+.main6 p img{
+	width: 1150px;
+}
+.main6 p:nth-of-type(n+2){
+	margin: 15px auto;
+	text-indent: 2em;
+	color: #555;
+}
+.main7{
+	width: 1150px;
+	margin: 30px auto;
+}
+.main7 div:first-child{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.main7 div:first-child img{
+	width: 200px;
+	height: 200px;
+}
+.main7 div:last-child{
+	width: 900px;
+	height: 200px;
+	float: right;
+}
+.footer{
+	width: 1200px;
+	height: 60px;
+	background-color: red;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+}
